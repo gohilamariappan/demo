@@ -9,7 +9,7 @@ stage('checkout')
         }
  stage('Deploy'){
          
- 	echo "${AWS_ACCESS_KEY_ID}"
+ 	echo ${AWS_ACCESS_KEY_ID}
   //sh'terraform init'
 //sh 'terraform plan  -out=plan'
 //sh'terraform apply  plan'
