@@ -8,6 +8,7 @@ stage('checkout')
           checkout scm
         }
  stage('Deploy'){
+         sh'set +x'
  	
   sh'terraform init'
   sh'terraform plan -out=plan'
