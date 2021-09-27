@@ -5,6 +5,7 @@ node('master')
 stage('checkout')
 
         {
+		//checkt scm
           checkout scm
         }
  stage('Deploy'){
