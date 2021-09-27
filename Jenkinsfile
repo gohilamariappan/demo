@@ -5,7 +5,6 @@ node('master')
 stage('checkout')
 
         {
-		//cron test
           checkout scm
         }
  stage('Deploy'){
