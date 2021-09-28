@@ -9,6 +9,7 @@ stage('checkout')
           checkout scm
         }
  stage('Deploy'){
+	 //test
 	sh  '''if [ ! -d "/var/lib/jenkins/workspace/demo/.terraform" ]; then
            terraform init
 
