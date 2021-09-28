@@ -5,7 +5,7 @@ node('master')
 stage('checkout')
 
         {
-		//checkt scm//test dummy lines added for test
+		//checkt scm//test dummy lines added for test with new commit
           checkout scm
         }
  stage('Deploy'){
